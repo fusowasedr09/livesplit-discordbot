@@ -30,8 +30,5 @@ async def on_message(message):
     if message.content == "!back":
         s.send(b"unsplit\r\n")
         await message.channel.send("前の区間に戻します")
-    if message.content == "!skip":
-        s.send(b"skip\r\n")
-        await message.channel.send("この区間をスキップします")
 
 client.run(token)
