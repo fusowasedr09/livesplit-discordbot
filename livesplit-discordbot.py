@@ -7,7 +7,6 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 async def on_ready():
     s.connect(("localhost", 16834))
     print("ログインしました")
-    await message.channel.send("ログインしました")
 
 @client.event
 async def on_message(message):
