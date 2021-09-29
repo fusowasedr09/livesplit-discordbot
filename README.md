@@ -11,7 +11,7 @@ LivesplitをDiscordで操作するためのbot。自分でbotをビルドする�
 2.取得したbotのトークンをlivesplit-discordbot.pyのtokenのところに入力  
 3.Livesplitを起動し、layoutにlivesplit.serverを追加。追加後、control>Start Serverをクリック  
 4.ローカルでlivesplit-discordbot.pyを走らせる  
-5.botがオンラインになり、メッセージを送信したのを確認できたらOK。コマンド入力でLivesplitが動く（はず）
+5.botがオンラインになったのを確認できたらOK。コマンド入力でLivesplitが動く（はず）
 
 ## コマンド
 !start - タイマースタート  
