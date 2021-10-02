@@ -17,7 +17,7 @@ async def start(ctx):
         return
     s.send(b"starttimer\r\n")
     await ctx.send("タイマーをスタートします") # ""内を変えると送信メッセージが変わる
-# 関数名を変えるとコマンド名称が変わる,権限内場合はエラーメッセ
+# 関数名を変えるとコマンド名称が変わる,権限ない場合や間違ったコマンド入れるとエラーメッセージが出ますが動作に支障なし
 
 @bot.command()
 @commands.has_role("Timekeeper")
