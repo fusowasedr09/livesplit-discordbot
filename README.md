@@ -1,4 +1,4 @@
-# livesplit-discordbot
+# livesplitcontrol-discordbot
 LivesplitをDiscordで操作するためのbot。自分でbotをビルドする必要があります。
 
 ## 必要環境
