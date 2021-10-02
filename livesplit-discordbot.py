@@ -1,7 +1,7 @@
 import discord, subprocess, socket
 from discord.ext import commands 
 
-bot = commands.Bot(command_prefix="/") # 起動コマンドの先頭記号を変えたい時はcommand_prefixの""内を変更
+bot = commands.Bot(command_prefix="!") # 起動コマンドの先頭記号を変えたい時はcommand_prefixの""内を変更
 token="ここに自分のbotのトークンを入力"
 s.connect(("localhost", 16834)) # livesplit.serverのポート番号に合わせる（デフォルト:16834）
 user_role = "Timekeeper" # コマンドを使用できる権限を変えたい時はここの""内を変更
