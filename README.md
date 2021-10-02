@@ -13,7 +13,8 @@ LivesplitをDiscordで操作するためのbot。自分でbotをビルドする�
 4.ローカルでlivesplit-discordbot.pyを走らせる  
 5.botがオンラインになったのを確認できたらOK。コマンド入力でLivesplitが動く（はず）  
 動作デモ→https://twitter.com/fuso_wasedr09/status/1443199856990818305  
-
+動作に権限"Timekeeper"を必要にしました。これで勝手に操作されにくくなりました。  
+  
 ## コマンド
 !start - タイマースタート  
 !split - 次のスプリットへ、最後のスプリットならタイマー停止  
